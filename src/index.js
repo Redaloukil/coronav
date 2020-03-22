@@ -7,11 +7,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Switch>
-        <Route component={Main} path="/"/>
-      </Switch>
-    </BrowserRouter>
+    <Main/>
   </React.StrictMode>,
   document.getElementById('root')
 );
