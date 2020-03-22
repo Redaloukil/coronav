@@ -8,8 +8,8 @@ function Main(){
     return (
         <div>   
             <Switch>
-                <Route component={Home} strict="/"/>
-                <Route component={About} strict="/about"/>
+                <Route exact path="/" component={Home}/>
+                <Route path="/about" component={About}/>
             </Switch>
         </div>
     )  
