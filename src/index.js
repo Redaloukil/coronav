@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Main from './components/common/Main';
+import { Route ,Switch } from 'react-router';
+import { BrowserRouter} from 'react-router-dom';
+import Main from './Components/Main';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Main />
+    <Main/>
   </React.StrictMode>,
   document.getElementById('root')
 );
