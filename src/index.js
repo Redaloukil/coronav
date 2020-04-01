@@ -4,6 +4,7 @@ import { Route ,Switch } from 'react-router';
 import { BrowserRouter} from 'react-router-dom';
 import Main from './Components/Main';
 import * as serviceWorker from './serviceWorker';
+import './i18n';
 
 ReactDOM.render(
   <React.StrictMode>
